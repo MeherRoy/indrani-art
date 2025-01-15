@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandchild - Creative Expressions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Titillium Web', sans-serif;
+            line-height: 1.6;
+            color: #c62641;
+            background: #f8f8f8;
+        }
+
+        .header {
+            background-color: #c62641;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .main {
+            max-width: 800px;
+            margin: 8rem auto 2rem;
+            padding: 0 1rem;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+
+        .poem-header {
+            text-align: center;
+            padding: 2rem 0;
+            border-bottom: 1px solid rgba(198,38,65,0.2);
+        }
+
+        .poem-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #c62641;
+            text-transform: uppercase;
+        }
+
+        .poem-meta {
+            color: #444;
+            font-size: 0.9rem;
+        }
+
+        .poem-content {
+            padding: 2rem;
+            line-height: 2;
+	    background: #FFF5CC;
+        }
+
+        .poem-stanza {
+            margin-bottom: 2rem;
+            text-align: left;
+            white-space: pre-line;
+        }
+
+        .poem-stanza.right {
+            text-align: right;
+        }
+
+        .poem-image {
+            max-width: 100%;
+            height: auto;
+            margin: 2rem auto;
+            display: block;
+            border-radius: 5px;
+            max-height: 400px;
+        }
+
+        .poem-image-wrapper {
+            background: #FFF5CC;
+            padding: 2rem;
+            margin: 2rem -1rem;
+            text-align: center;
+        }
+
+        .image-caption {
+            margin-top: 1rem;
+            font-style: italic;
+            color: #666;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            background: #f8f8f8;
+            color: #444;
+            margin-top: 4rem;
+            border-top: 1px solid #ddd;
+        }
+
+        @media (max-width: 768px) {
+            .nav {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem;
+            }
+            
+            .main {
+                margin-top: 10rem;
+            }
+            
+            .poem-content {
+                padding: 1rem;
+            }
+
+            .poem-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <h1>Creative Expressions</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article>
+            <header class="poem-header">
+                <h1 class="poem-title">Grandchild</h1>
+                <div class="poem-meta">24 October, 2020 • 1 Min Read</div>
+            </header>
+
+            <div class="poem-content">
+                <div class="poem-image-wrapper">
+                    <img src="./grandchild.jpeg" alt="Red Adenium flower" class="poem-image">
+                    <div class="image-caption">Red Adenium flower</div>
+                </div>
+
+                <div class="poem-stanza">
+See this little flower,
+Strikingly pink in colour.
+Blossomed in my garden,
+Start of Navratri Celebrations.</div>
+
+                <div class="poem-stanza right">
+It was a bright morning,
+Sun was just rising.
+Was awe-struck by a momentary feeling
+Of Her Divine presence embracing.</div>
+
+                <div class="poem-stanza">
+Sensing this to be a sign of hope,
+I promptly took my i-phone.
+And there lay in store,
+News of birth the day before.</div>
+
+                <div class="poem-stanza right">
+On the birth of a grand daughter we rejoice,
+Said my friend in a choked voice.
+With excitement my eyes felt moist,
+Mother Goddess had indicated Her choice.</div>
+
+                <div class="poem-stanza">
+I have become a Nani,
+Said my friend in ecstasy.
+"Her face is such a roly poly,
+Oh! My God, She looks just like me".</div>
+
+                <div class="poem-stanza right">
+Cheers to you my friend,
+You'll see more of her at day's end.
+Enjoy her blooming is what I recommend,
+She'll be all yours till she gets a boyfriend.</div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>Copyright © 2018-2023 Indrani Roychoudhury. All rights Reserved.</p>
+    </footer>
+</body>
+</html>

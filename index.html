@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Expressions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Titillium Web', sans-serif;
+            line-height: 1.6;
+            color: #c62641;
+            background: #f8f8f8;
+        }
+
+        .header {
+            background-color: #c62641;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .main {
+            max-width: 1200px;
+            margin: 6rem auto 2rem;
+            padding: 0 1rem;
+        }
+
+        .post-card {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .post-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #c62641;
+            text-transform: uppercase;
+        }
+
+        .post-meta {
+            color: #444;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .post-excerpt {
+            margin-bottom: 1rem;
+        }
+
+        .read-more {
+            display: inline-block;
+            background: #c62641;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 3px;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        .read-more:hover {
+            background: #a51e35;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            background: #f8f8f8;
+            color: #444;
+            margin-top: 4rem;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <h1>Creative Expressions</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article class="post-card">
+            <h2 class="post-title">Mouse and Spouse</h2>
+            <div class="post-meta">10 January, 2025</div>
+            <div class="post-excerpt">
+                <p>This lonely little mouse, seemed to have a serious grouse. Was scurrying around the house, hunting for it's loving spouse.</p>
+            </div>
+            <a href="mouse-and-spouse.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Freedom</h2>
+            <div class="post-meta">10 January, 2025</div>
+            <div class="post-excerpt">
+                <p>This is a short tale, of two birds nearly the same age. One living in the woods and flying high in the sky, the other dwelling in a golden cage.</p>
+            </div>
+            <a href="freedom.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Jhal Muri</h2>
+            <div class="post-meta">3 October, 2022</div>
+            <div class="post-excerpt">
+                <p>Jhal Muri is a popular street food from Kolkata. All Bengalis are fond of Jhal Muri.</p>
+            </div>
+            <a href="jhal-muri.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Queen</h2>
+            <div class="post-meta">18 September, 2021</div>
+            <div class="post-excerpt">
+                <p>I have been a working woman. My dream of spreading love and joy is a guiding factor in whatever I do. My composition titled Queen is a reflection of the innermost feelings of any woman.</p>
+            </div>
+            <a href="queen.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Our Glorious Sun</h2>
+            <div class="post-meta">18 August, 2021</div>
+            <div class="post-excerpt">
+                <p>Since childhood I have been awed by the Sun in the sky. My books taught that it was the giver of life on earth. As I grew up I gradually realised the importance of it in our lives.</p>
+            </div>
+            <a href="our-glorious-sun.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Moon from my window</h2>
+            <div class="post-meta">15 April, 2021</div>
+            <div class="post-excerpt">
+                <p>This is a narration of a true incident in my life. Please read on…</p>
+            </div>
+            <a href="moon-from-my-window.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Grandchild</h2>
+            <div class="post-meta">24 October, 2020</div>
+            <div class="post-excerpt">
+                <p>Birth of a grand daughter is like a beautiful flower blossoming in the garden. And if she is born during Navratri season, it surely is a sign of Divine blessings.</p>
+            </div>
+            <a href="grandchild.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Roses</h2>
+            <div class="post-meta">1 July, 2020</div>
+            <div class="post-excerpt">
+                <p>My poem 'Roses' was composed by me after watching the beautiful flower bloom in my garden in multiple colours. I often wonder why such a beautiful flower should have thorns on it's stem and leaves.</p>
+            </div>
+            <a href="roses.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Freshly Baked Vegetable Patties</h2>
+            <div class="post-meta">29 June, 2020</div>
+            <div class="post-excerpt">
+                <p>Freshly Baked Vegetable Patties is another composition wherein I have tried to portray the joy of a family when a new menu got fixed for Sunday lunch.</p>
+            </div>
+            <a href="freshly-baked-vegetable-patties.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Reunion</h2>
+            <div class="post-meta">8 June, 2020</div>
+            <div class="post-excerpt">
+                <p>I belong to the ICSE batch of 1974. Studied in Loreto Convent Ranchi. During the Corona period all our class mates decided to connect through zoom. My composition Reunion expresses the excitement of seeing and talking to each other virtually after a long time.</p>
+            </div>
+            <a href="reunion.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Divine Light</h2>
+            <div class="post-meta">28 May, 2020</div>
+            <div class="post-excerpt">
+                <p>This composition is a narration of an unique experience I have had in my life - an encounter with The Supreme Being my creator.🙏</p>
+            </div>
+            <a href="divine-light.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Deliverance</h2>
+            <div class="post-meta">23 April, 2020</div>
+            <div class="post-excerpt">
+                <p>Our world was plagued by Corona Virus and the year 2020 played havoc in our lives. It brought us the realisation that some things are surely wrong with this world and that we need to bring about changes in our lives.</p>
+            </div>
+            <a href="deliverance.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Immunity</h2>
+            <div class="post-meta">4 April, 2020</div>
+            <div class="post-excerpt">
+                <p>All of us need strong Immunity to fight all kinds of diseases. The Corona Virus pandemic has made us all aware of building robust Immunity in our lives.</p>
+            </div>
+            <a href="immunity.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Corona Virus</h2>
+            <div class="post-meta">25 March, 2020</div>
+            <div class="post-excerpt">
+                <p>The world was struck by the Corona Virus in 2019, causing a fully blown pandemic. It was a terrifying experience for mankind. Millions of people lost their lives.</p>
+            </div>
+            <a href="corona-virus.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Beti Bachao Beti Padhao</h2>
+            <div class="post-meta">18 March, 2020</div>
+            <div class="post-excerpt">
+                <p>Our nation celebrates feminine divinity. Festival of Durga Puja has been accorded heritage status by the UNESCO. It follows, therefore, that each girl child of the country needs to be protected and educated.</p>
+            </div>
+            <a href="beti-bachao-beti-padhao.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">The Worthy Girl</h2>
+            <div class="post-meta">8 March, 2020</div>
+            <div class="post-excerpt">
+                <p>Many underprivileged girls are born with talent, but lack of facilities constrain them from flourishing in life. My composition 'The Worthy Girl' focuses on girl child adoption.</p>
+            </div>
+            <a href="the-worthy-girl.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Saraswati Vandana</h2>
+            <div class="post-meta">29 January, 2020</div>
+            <div class="post-excerpt">
+                <p>This is an invocation for Devi Saraswati, Goddess of Learning, to bless us all with wisdom🙏</p>
+            </div>
+            <a href="saraswati-vandana.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Onam Celebrations</h2>
+            <div class="post-meta">9 September, 2019</div>
+            <div class="post-excerpt">
+                <p>Onam is an ancient Hindu festival of the state of Kerala in India that celebrates the rice harvest. This festival is celebrated in August and September every year for 10 days.</p>
+            </div>
+            <a href="onam-celebrations.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">My Union with the Lord</h2>
+            <div class="post-meta">23 August, 2019</div>
+            <div class="post-excerpt">
+                <p>My readings of 'Bhanusingher Padaboli' inspired this composition. The songs of Bhanushinger Padaboli is a collection of Vaishnavite lyrics composed by Gurudev Shri Rabindranath Tagore.</p>
+            </div>
+            <a href="my-union-with-the-lord.html" class="read-more">Read on</a>
+        </article>
+
+        <article class="post-card">
+            <h2 class="post-title">Prayer To Mother Goddess</h2>
+            <div class="post-meta">31 July, 2019</div>
+            <div class="post-excerpt">
+                <p>I have extensively read the poetries of worship written by the Nobel Laureate Rabindranath Tagore. My prayers expressed in my composition emanates from my understanding of Gurudev's writings.</p>
+            </div>
+            <a href="prayer-to-mother-goddess.html" class="read-more">Read on</a>
+        </article>
+
+	<article class="post-card">
+            <h2 class="post-title">Festival of Holi</h2>
+            <div class="post-meta">20 March, 2019</div>
+            <div class="post-excerpt">
+                <p>Holi is a spring festival celebrated in the Indian sub-continent during the month of March in honour of the Hindu God Lord Krishna. This is a festival of colours-a festival of love, friendship and bonding.</p>
+            </div>
+            <a href="festival-of-holi.html" class="read-more">Read on</a>
+        </article>
+
+	<article class="post-card">
+            <h2 class="post-title">GIASOWA Learning Center</h2>
+            <div class="post-meta">18 September, 2018</div>
+            <div class="post-excerpt">
+                <p>Ladies of GIASOWA were desiring to impart knowledge and training in extra curricular activities to under privileged children. A learning centre was started by us on 18 th September 2018, the date of birth of our Prime Minister Shri Narendrabhai Modi.</p>
+            </div>
+            <a href="giasowa-learning-center.html" class="read-more">Read on</a>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>Copyright © 2018-2023 Indrani Roychoudhury. All rights Reserved.</p>
+    </footer>
+</body>
+</html>

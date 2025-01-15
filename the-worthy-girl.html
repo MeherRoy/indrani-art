@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Worthy Girl - Creative Expressions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Titillium Web', sans-serif;
+            line-height: 1.6;
+            color: #c62641;
+            background: #f8f8f8;
+        }
+
+        .header {
+            background-color: #c62641;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .main {
+            max-width: 800px;
+            margin: 8rem auto 2rem;
+            padding: 0 1rem;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+
+        .poem-header {
+            text-align: center;
+            padding: 2rem 0;
+            border-bottom: 1px solid rgba(198,38,65,0.2);
+        }
+
+        .poem-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #c62641;
+            text-transform: uppercase;
+        }
+
+        .poem-meta {
+            color: #444;
+            font-size: 0.9rem;
+        }
+
+        .poem-content {
+            padding: 2rem;
+            line-height: 2;
+	    background: #FFF5CC;
+        }
+
+        .poem-stanza {
+            margin-bottom: 2rem;
+            text-align: left;
+            white-space: pre-line;
+        }
+
+        .poem-stanza.right {
+            text-align: right;
+        }
+
+        .poem-image {
+            max-width: 100%;
+            height: auto;
+            margin: 2rem auto;
+            display: block;
+            border-radius: 5px;
+            max-height: 400px;
+        }
+
+        .poem-image-wrapper {
+            background: #FFF5CC;
+            padding: 2rem;
+            margin: 2rem -1rem;
+            text-align: center;
+        }
+
+        .poem-image-caption {
+            margin-top: 1rem;
+            color: #444;
+            font-size: 0.9rem;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            background: #f8f8f8;
+            color: #444;
+            margin-top: 4rem;
+            border-top: 1px solid #ddd;
+        }
+
+        @media (max-width: 768px) {
+            .nav {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem;
+            }
+            
+            .main {
+                margin-top: 10rem;
+            }
+            
+            .poem-content {
+                padding: 1rem;
+            }
+
+            .poem-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <h1>Creative Expressions</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article>
+            <header class="poem-header">
+                <h1 class="poem-title">The Worthy Girl</h1>
+                <div class="poem-meta">8 March, 2020 • 1 Min Read</div>
+            </header>
+
+            <div class="poem-content">
+                <div class="poem-image-wrapper">
+                    <img src="./worthy_girl.jpeg" alt="The Worthy Girl" class="poem-image">
+                    <div class="poem-image-caption">A painting dated 30-11-2020 on the topic done by me in Madhubani style.</div>
+                </div>
+
+                <div class="poem-stanza">
+I kept walking down the road,
+By the stream that swiftly flowed,
+Through the meadows moist and green,
+She stood majestically like a queen.</div>
+
+                <div class="poem-stanza right">
+Her skin was dark as dark could be,
+Eyes wide open for the world to see,
+She may have been an ordinary girl,
+But I saw in her eyes a keen twirl.</div>
+
+                <div class="poem-stanza">
+A doe eyed naive lass,
+She smiled at me in a flash,
+Reflecting an ocean of suppressed emotions,
+Her life's poignant story, free spoken.</div>
+
+                <div class="poem-stanza right">
+For she was born a village girl,
+With her talents yet to unfurl,
+She led her life in abject penury,
+Wrapped in pain and sheer misery.</div>
+
+                <div class="poem-stanza">
+Instantly I thought of adopting her,
+To give her a life much much bigger,
+With strengthened wings she soared the sky,
+To distant lands, wishing me Good Bye.</div>
+
+                <div class="poem-stanza right">
+Despite being shy and thin,
+Her potentials flourished from within,
+Bestowed with qualities rare was she,
+Like gems that lay under the sea.</div>
+
+                <div class="poem-stanza">
+She entered my life as God's grace,
+I joyfully took her in my embrace,
+This is a tale of a forgotten face,
+Who, given a push won the race.</div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>Copyright © 2018-2023 Indrani Roychoudhury. All rights Reserved.</p>
+    </footer>
+</body>
+</html>

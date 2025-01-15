@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhal Muri - Creative Expressions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Titillium Web', sans-serif;
+            line-height: 1.6;
+            color: #c62641;
+            background: #f8f8f8;
+        }
+
+        .header {
+            background-color: #c62641;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .main {
+            max-width: 800px;
+            margin: 8rem auto 2rem;
+            padding: 0 1rem;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+
+        .poem-header {
+            text-align: center;
+            padding: 2rem 0;
+            border-bottom: 1px solid rgba(198,38,65,0.2);
+        }
+
+        .poem-title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #c62641;
+            text-transform: uppercase;
+        }
+
+        .poem-meta {
+            color: #444;
+            font-size: 0.9rem;
+        }
+
+        .poem-content {
+            padding: 2rem;
+            line-height: 2;
+	    background: #FFF5CC; /* Yellow background */
+        }
+
+        .poem-intro {
+            margin-bottom: 2rem;
+            color: #444444;
+            font-style: italic;
+        }
+
+        .poem-stanza {
+            margin-bottom: 2rem;
+            text-align: left;
+            white-space: pre-line;
+        }
+
+        .poem-stanza.right {
+            text-align: right;
+        }
+
+        .poem-image {
+            max-width: 100%;
+            height: auto;
+            margin: 2rem auto;
+            display: block;
+            border-radius: 5px;
+        }
+
+        .poem-image-wrapper {
+            background: #FFF5CC;
+            padding: 2rem;
+            margin: 2rem -1rem;
+        }
+
+        .image-caption {
+            text-align: center;
+            color: #666;
+            margin-top: 1rem;
+            font-style: italic;
+            font-size: 0.9rem;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            background: #f8f8f8;
+            color: #444;
+            margin-top: 4rem;
+            border-top: 1px solid #ddd;
+        }
+
+        /* Mobile Responsive Styles */
+        @media (max-width: 768px) {
+            .nav {
+                flex-direction: column;
+                gap: 1rem;
+                padding: 1rem;
+            }
+            
+            .main {
+                margin-top: 10rem;
+            }
+            
+            .poem-content {
+                padding: 1rem;
+            }
+
+            .poem-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <h1>Creative Expressions</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <article>
+            <header class="poem-header">
+                <h1 class="poem-title">Jhal Muri</h1>
+                <div class="poem-meta">3 October, 2022 • 1 Min Read</div>
+            </header>
+
+            <div class="poem-content">
+                <div class="poem-image-wrapper">
+                    <img src="./jhal-muri.jpeg" alt="Jhal Muri being served" class="poem-image">
+                    <div class="image-caption">Jhal Muri being served at the Ladies club meet organized by me at Gift City club Gandhinagar</div>
+                </div>
+
+                <div class="poem-stanza">
+Jhal Muri, Jhal Muri,
+A lip smacking delicacy,
+From the streets of Kolkata,
+Gifted to us all over India.</div>
+
+                <div class="poem-stanza right">
+Crunchy puffed rice taken in a bowl,
+Aroma of blended spices makes us rock and roll.
+Grated ginger with chillis and coriander,
+Mixed with onions, tomatoes and cucumber.</div>
+
+                <div class="poem-stanza">
+All the vegetables cut in small pieces,
+With boiled potatoes diced to same sizes,
+With salt, amchur and chaat masala,
+Add mustard oil for that extra rich flavour.</div>
+
+                <div class="poem-stanza right">
+A small helping of tamarind chutney,
+Will enrich the mixture, but will make it soggy.
+Fried peanuts and some teekhi sev,
+Will work as magic on your palate.</div>
+
+                <div class="poem-stanza">
+So easy to make, this savoury mixture,
+Will leave you licking all your fingers.
+Do try making it at home,
+Take the recipe from your smart phone.</div>
+
+                <div class="poem-stanza right">
+Remember to have a net connection,
+For that's the way to full satisfaction.
+I will eagerly wait for all your calls,
+And cherish listening to one and all.</div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <p>Copyright © 2018-2023 Indrani Roychoudhury. All rights Reserved.</p>
+    </footer>
+</body>
+</html>
