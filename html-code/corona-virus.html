@@ -206,34 +206,23 @@ Come what may we will certainly thrive.</div>
         </article>
     </main>
 
-	var disqus_config = function () {
-        this.page.url = window.location.href;  // Replace with your URL
-        this.page.identifier = window.location.pathname; // Replace with your page's unique identifier
-    };
-    
-    (function() {
-        var d = document, s = d.createElement('script');
-        s.src = 'https://https-indrani-art.disqus.com/embed.js';  // Replace YOUR-SHORTNAME with your Disqus shortname
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
- import { CommentCount } from 'disqus-react';
+ <div id="disqus_thread" style="max-width: 800px; margin: 4rem auto 2rem; padding: 0 1rem;"></div>
+    <script>
+        var disqus_config = function () {
+            this.page.url = window.location.href;
+            this.page.identifier = window.location.pathname;
+        };
+        
+        (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://https-indrani-art.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-<CommentCount
-    shortname='https-indrani-art'
-    config={
-        {
-            url: this.props.article.url,
-            identifier: this.props.article.id,
-            title: this.props.article.title,
-        }
-    }
->
-    {/* Placeholder Text */}
-    Comments
-</CommentCount>   
+
     <footer class="footer">
         <p>Copyright © 2018-2023 Indrani Roychoudhury. All rights Reserved.</p>
     </footer>
