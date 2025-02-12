@@ -274,7 +274,23 @@ And never ever be unduly suppressed.</div>
     })();
 	</script>
 	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <footer class="footer">
+ import { CommentCount } from 'disqus-react';
+
+<CommentCount
+    shortname='https-indrani-art'
+    config={
+        {
+            url: this.props.article.url,
+            identifier: this.props.article.id,
+            title: this.props.article.title,
+        }
+    }
+>
+    {/* Placeholder Text */}
+    Comments
+</CommentCount>   
+
+<footer class="footer">
         <p>Copyright © 2018-2023 Indrani Roychoudhury. All rights Reserved.</p>
     </footer>
 </body>
